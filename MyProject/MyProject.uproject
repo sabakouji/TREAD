@@ -1,0 +1,130 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "",
+	"Description": "踏みつけ加速メカゲーム",
+	"Modules": [
+		{
+			"Name": "MyProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "EngineCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": false
+		},
+		{
+			"Name": "VirtualScouting",
+			"Enabled": false
+		},
+		{
+			"Name": "HDRIBackdrop",
+			"Enabled": false
+		},
+		{
+			"Name": "SunPosition",
+			"Enabled": false
+		},
+		{
+			"Name": "SequencerScripting",
+			"Enabled": false
+		},
+		{
+			"Name": "Takes",
+			"Enabled": false
+		},
+		{
+			"Name": "VirtualProductionUtilities",
+			"Enabled": false
+		},
+		{
+			"Name": "VirtualCamera",
+			"Enabled": false
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": false
+		},
+		{
+			"Name": "Composite",
+			"Enabled": false
+		},
+		{
+			"Name": "MediaFrameworkUtilities",
+			"Enabled": false
+		},
+		{
+			"Name": "MediaIOFramework",
+			"Enabled": false
+		},
+		{
+			"Name": "RemoteControl",
+			"Enabled": false
+		},
+		{
+			"Name": "nDisplay",
+			"Enabled": false
+		},
+		{
+			"Name": "AjaMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "BlackmagicMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleProResMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "HAPMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleARKit",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleARKitFaceSupport",
+			"Enabled": false
+		},
+		{
+			"Name": "PixelStreaming",
+			"Enabled": false
+		},
+		{
+			"Name": "VariantManager",
+			"Enabled": false
+		},
+		{
+			"Name": "DMXProtocol",
+			"Enabled": false
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": false
+		},
+		{
+			"Name": "PerformanceCaptureWorkflow",
+			"Enabled": false
+		}
+	]
+}

@@ -1,0 +1,54 @@
+# ---- Unreal Engine の生成物 ----
+MyProject/Binaries/
+MyProject/Build/
+MyProject/DerivedDataCache/
+MyProject/Intermediate/
+MyProject/Saved/
+MyProject/Plugins/*/Binaries/
+MyProject/Plugins/*/Intermediate/
+
+# Built data for maps（ライティングのビルド結果。エディタで再生成できる）
+*_BuiltData.uasset
+
+# ---- コンパイル生成物 ----
+*.slo
+*.lo
+*.o
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+*.pdb
+
+# ---- IDE / ソリューション（エンジンが再生成する） ----
+.vs/
+.vscode/
+.idea/
+.vsconfig
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vcxproj*
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- OS ----
+Thumbs.db
+Desktop.ini
+.DS_Store
